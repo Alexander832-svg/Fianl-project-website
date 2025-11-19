@@ -17,11 +17,10 @@ body {
 
 .nav img {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    position: relative;
+    width: 60px;
+    height: 60px;
     border-radius: 10px;
-    margin: 0px;
-    
 }
 
 .nav ul {
@@ -52,4 +51,44 @@ body {
     border-radius: 10px;
     color: white;
 }
+
+.logo {
+   background-color: aliceblue;
+}
+
+.button {
+    text-decoration: none;
+    padding: 20px 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 300px;
+}
+
+
+
+@keyframes color-rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(300deg);
+    }
+}
+
+.button a {
+    text-decoration: none;
+    animation: color-rotate
+    4s;
+    animation-iteration-count: infinite;
+    filter: brightness(200%);
+}
+
 
