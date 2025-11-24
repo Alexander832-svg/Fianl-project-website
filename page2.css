@@ -78,7 +78,7 @@ body {
     border-radius: 20px;
 }
 .box-2 img {
-    filter: brightness(40%);
+    filter: brightness(50%);
     height: 500px;
     width: 500px;
     border-radius: 20px;
@@ -96,6 +96,10 @@ body {
     font-weight: bold;
     font-style: italic;
 
+}
+
+.image-container:hover {
+    transform: scale(1.2);
 }
 
 
