@@ -106,16 +106,37 @@ body {
     color: white;
     text-align: center;
 }
+
 .description {
+    list-style:circle;
+    display: flex;
+    flex-direction: column;
     display: flex;
     text-align: justify;
     color: white;
     margin-right: 50px;
 }
 
+.ilti-pc-descrption {
 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
 
+.description2 {
+    color: white;
+}
 
+.box-2 {
+    display: flex;
+    gap: 100px;
+}
+
+.cuadro2 {
+    gap: 250px;
+}
 
 
 
