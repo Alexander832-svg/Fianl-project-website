@@ -20,6 +20,8 @@ body {
     justify-content: center;
     background-color: black;
     border-radius: 50px;
+    margin: 25px;
+    transition-duration: 0.8s;
 }
 
 .image-container2 {
@@ -27,6 +29,8 @@ body {
     justify-content: center;
     background-color: black;
     border-radius: 50px;
+    margin: 25px;
+    transition-duration: 0.8s;
 }
 
 .image-container3 {
@@ -34,6 +38,8 @@ body {
     justify-content: center;
     background-color: black;
     border-radius: 50px;
+    margin: 25px;
+    transition: 0.8s;
 }
 
 .image2 {
@@ -99,7 +105,15 @@ body {
 }
 
 .image-container:hover {
-    transform: scale(1.2);
+    transform: scale(1.020)
+}
+
+.image-container2:hover {
+    transform: scale(1.020);
+}
+
+.image-container3:hover {
+    transform: scale(1.020);
 }
 
 .pc-title {
@@ -129,13 +143,19 @@ body {
     color: white;
 }
 
+.pc-title2 {
+    color: white;
+}
+
 .box-2 {
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .cuadro2 {
-    gap: 250px;
+    gap: 0px;
 }
 
 
