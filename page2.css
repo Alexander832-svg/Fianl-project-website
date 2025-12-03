@@ -2,6 +2,7 @@ body {
     background-color: rgba(0, 0, 0, 0.936);
 }
 
+
 .principal-container {
     display: flex;
     flex-direction: column;
@@ -151,7 +152,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 .cuadro2 {
