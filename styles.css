@@ -17,7 +17,7 @@ body {
 
 .nav img {
     display: inline-block;
-    position: relative;
+    position: sticky;
     width: 60px;
     height: 60px;
     border-radius: 10px;
@@ -47,14 +47,13 @@ body {
 .nav a {
     text-decoration: none;
     padding: 10px 15px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    border-color: red;
+    border: 2px solid red;
     border-radius: 10px;
     color: white;
 }
 
-.logo {
-   background-color: aliceblue;
-}
 
 .button {
     text-decoration: none;
@@ -70,6 +69,10 @@ body {
     position: absolute;
     margin-left: 1200px;
     margin-top: 300px;
+}
+
+.button:hover {
+    transform: scale();
 }
 
 
