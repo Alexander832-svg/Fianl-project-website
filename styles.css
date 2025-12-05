@@ -54,6 +54,13 @@ body {
     color: white;
 }
 
+.nav li {
+    transition-duration: 0.3s;
+}
+
+.nav li:hover {
+    transform: scale(1.2);
+}
 
 .button {
     text-decoration: none;
@@ -69,10 +76,11 @@ body {
     position: absolute;
     margin-left: 1200px;
     margin-top: 300px;
+    transition-duration: 2s;
 }
 
 .button:hover {
-    transform: scale();
+    transform: scale(1.2);
 }
 
 
