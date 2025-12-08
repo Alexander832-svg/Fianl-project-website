@@ -128,15 +128,22 @@ body {
     justify-content: left;
     background-color: black;
     border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.5s;
 }
 
 #cuadro3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
     background-color: black;
+    padding: 20px;
     width: 100%;
-    margin-top: 20px;
+    margin: 20px;
     border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.5s;
 }
 
 .box-2 img {
@@ -191,16 +198,23 @@ body {
 
     color: white;
     display: flex;
-    flex-direction: row;
-    text-align: left;
+    flex-direction: column;
+    text-align: center;
 }
 
 .description2 {
     color: white;
+    font-size: 20px;
 }
 
 .pc-title2 {
     color: white;
+    width: 30%;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+
+    margin-left: 0px;
 }
 
 .box-2 {
@@ -213,7 +227,22 @@ body {
     justify-content: space-between;
 }
 
+#cuadro2:hover {
+    border-color: red;
+}
 
+#cuadro1:hover {
+    border-color: red;
+}
+
+#cuadro3:hover {
+    border-color: red;
+}
+
+.componentes {
+    font-size: 50px;
+    list-style: none;
+}
 
 
 
