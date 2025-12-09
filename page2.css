@@ -73,6 +73,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     transition-duration: 0.8s;
+    border: 2px solid black;
 }
 
 .image-container2 {
@@ -84,6 +85,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     transition-duration: 0.8s;
+    border: 2px solid black;
 }
 
 .image-container3 {
@@ -95,6 +97,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     transition: 0.8s;
+    border: 2px solid black;
 }
 
 .image2 {
@@ -168,15 +171,18 @@ body {
 
 
 .image-container:hover {
-    transform: scale(1.04)
+    transform: scale(1.04);
+    border: red 2px solid;
 }
 
 .image-container2:hover {
-    transform: scale(1.04)
+    transform: scale(1.04);
+    border: red 2px solid;
 }
 
 .image-container3:hover {
     transform: scale(1.04);
+    border: red 2px solid;
 }
 
 .pc-title {

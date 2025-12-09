@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(0, 0, 0, 0.936);
+    font-family:monospace;
+}
+
+.nav img {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 0px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid red;
+}
+
+.nav li {
+    transition-duration: 0.3s;
+}
+
+.nav li:hover {
+    transform: scale(1.2);
+}
+
+.products {
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+img {
+    width: 331px;
+    background-color: rgba(0, 0, 0, 0.286);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 335px;
+    height: 335px;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    border: 2px solid red;
+}
+
+.gaming-pc {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.632);
+    border: 2px solid red;
+}
+
+
